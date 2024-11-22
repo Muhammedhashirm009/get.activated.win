@@ -11,7 +11,6 @@ function Check3rdAV {
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $URLs = @(
     'https://raw.githubusercontent.com/Muhammedhashirm009/MSKIT/refs/heads/master/MAS/All-In-One-Version-KL/MAS_AIO.cmd',
-    'https://winact.h4xcorp.rf.gd/MAS/All-In-One-Version-KL/MAS_AIO.cmd',
 )
 
 foreach ($URL in $URLs | Sort-Object { Get-Random }) {
